@@ -28,8 +28,10 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
+  length: 100%
   width: 100%;
   opacity: 0.9;
+  align-content: center;
 }
 
 button:hover {
@@ -110,16 +112,22 @@ hr {
      width: 100%;
   }
 }
+
 </style>
 <body>
-  
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<center> <img src="img3.jpg" alt="how-ecommerce-works" length="100%" width="100%"> </center>
+<a href="signin.html"><button length="10%">Login</button></a>
+
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content" action="/action_page.php">
+  <form class="modal-content" action="/action_page1.php">
     <div class="container">
-     <center><h1>Sign Up</h1></center>
+
+      
+      
+     <h1>Sign Up</h1>
       <p>Please fill in this form to create an account.</p>
       <hr>
       <label for="email"><b>Email</b></label>
@@ -156,6 +164,5 @@ window.onclick = function(event) {
   }
 }
 </script>
-
 </body>
 </html>
